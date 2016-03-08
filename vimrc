@@ -48,6 +48,7 @@ set noexpandtab
 set formatoptions=tcqron
 set grepformat=%f:%l:%m
 set grepprg=grep\ -HnEi
+set history=200
 set hlsearch
 set ignorecase
 set isfname-==
