@@ -13,3 +13,7 @@ if expand('<amatch>:t') =~ '^\.notes$'
 	finish
 endif
 
+if expand('<amatch>') =~ '\.xaml$'
+	setfiletype xml
+	finish
+endif
