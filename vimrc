@@ -107,7 +107,8 @@ map  <F5> :make<CR>
 imap <F5> <C-O>:make<CR>
 
 " execute the current line of text as a shell command
-noremap Q !!zsh<CR>
+noremap  Q !!zsh<CR>
+vnoremap Q  !zsh<CR>
 
 " Map alt-v in command-line mode to replace the commandline with the Ex
 " command-line beneath the cursor in the buffer
