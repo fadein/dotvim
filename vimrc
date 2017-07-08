@@ -42,6 +42,7 @@ set nobackup
 set nocindent
 set comments=s1:/*,mbx:*,ex:*/,://,b:#,:%,:XCOMM,n:>,fb:- " is this right?
 set cpoptions=BadFAces
+set cscopequickfix=s-,c-,d-,i-,t-,e-
 set cursorline
 set directory^=/dev/shm
 set noexpandtab
@@ -105,6 +106,12 @@ map  <F4> :sign unplace *<CR> <bar>:ccl<CR>
 imap <F4> <C-O>:sign unplace *<CR>
 map  <F5> :make<CR>
 imap <F5> <C-O>:make<CR>
+
+" Make F1 less useless
+map <F1> <Esc>
+imap <F1> <Esc>
+cmap <F1> <Esc>
+smap <F1> <Esc>
 
 " execute the current line of text as a shell command
 noremap  Q !!zsh<CR>
@@ -170,7 +177,7 @@ endif
 
 " Autocommands {{{
 if has('autocmd')
-	autocmd BufRead *.xsl,*.xslt,*.xml,*.htm,*.html,*.xsd,*.tas set filetype=xml
+	autocmd BufRead *.xsl,*.xslt,*.xml,*.xsd,*.tas set filetype=xml
 	autocmd FileType {xml,xslt} setlocal iskeyword=$,@,-,\:,48-57,_,128-167,224-235 
 	autocmd FileType {xml,xslt} setlocal noexpandtab
 
