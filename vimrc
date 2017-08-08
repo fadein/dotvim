@@ -52,8 +52,8 @@ set grepprg=grep\ -HnEi
 set history=200
 set hlsearch
 set ignorecase
-set isfname-==
 set incsearch
+set isfname-==
 set keymodel=startsel,stopsel
 set laststatus=2 "make sure status line always appears, regardless of splits
 set matchpairs=(:),{:},[:],<:>
@@ -63,9 +63,9 @@ set mouse=
 set nrformats=hex
 set number
 set ruler
+set scrolloff=0
 set shiftwidth=4
 set shortmess=aoOTt
-set viminfo='100,<50,s10,h,n~/.vim/viminfo
 set showcmd
 set smartcase
 set smartindent
@@ -78,6 +78,7 @@ set statusline=%m%f:%l/%L\ %P\ %<<%-3b\ 0x%-2B>\ %y%r%w%=b:%n\ w:%{winnr()}
 set tabstop=4
 set tags=tags
 set undodir=$HOME/.vim/undo
+set viminfo='100,<50,s10,h,n~/.vim/viminfo
 set whichwrap=b,s,<,>,[,]
 set nowildmenu
 set wildmode=list:longest,full
@@ -108,10 +109,10 @@ map  <F5> :make<CR>
 imap <F5> <C-O>:make<CR>
 
 " Make F1 less useless
-map <F1> <Esc>
-imap <F1> <Esc>
-cmap <F1> <Esc>
-smap <F1> <Esc>
+map <F1> <Nop>
+imap <F1> <Nop>
+cmap <F1> <Nop>
+smap <F1> <Nop>
 
 " execute the current line of text as a shell command
 noremap  Q !!zsh<CR>
