@@ -4,7 +4,6 @@ call pathogen#infect()
 "
 " mapping to ShowSynStack() is found in Functions section
 
-set ttym=
 if ($TERM == "screen" || $TERM =~ "256")
     set t_Co=256
     set t_kb=
