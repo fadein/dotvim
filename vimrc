@@ -8,6 +8,7 @@ call plug#begin()
 Plug 'Shougo/unite.vim'
 Plug 'fadein/vim-FIGlet'
 Plug 'fadein/vim-legacy'
+Plug 'guns/vim-sexp'
 Plug 'jamessan/vim-gnupg'
 Plug 'mbbill/undotree'
 Plug 'ramele/agrep'
