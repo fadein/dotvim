@@ -6,3 +6,5 @@ undo/*
 viminfo
 .netrwhist
 spell/*
+autoload/
+plugged/
