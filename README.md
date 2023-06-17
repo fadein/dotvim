@@ -1,10 +1,17 @@
-# Erik's vimfiles
+# Erik's Vim Configuration
 
-This repository uses submodules. You may either clone this repository recursively:
+*Updated for 2023*
 
-``` git clone --recursive https://github.com/fadein/vimfiles.git ```
+This repo is now intended to be used with Junegunn Choi's [vim-plug](https://github.com/junegunn/vim-plug)
 
-or manually initialize the submodules after the fact:
 
-``` git submodule init; git submodule update ```
+## Quickstart
 
+After cloning this repo into `~/.vim`, all plugins will be automatically cloned and installed upon restarting Vim.
+
+Run `PlugUpdate` to refresh.
+
+
+## See also
+
+https://github.com/fadein/vim-legacy
