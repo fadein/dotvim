@@ -6,16 +6,25 @@ endif
 
 call plug#begin()
 Plug 'Shougo/unite.vim'
+
 Plug 'fadein/vim-FIGlet'
 Plug 'fadein/vim-legacy'
+
 Plug 'guns/vim-sexp'
+let g:sexp_enable_insert_mode_mappings = 0
+
 Plug 'jamessan/vim-gnupg'
+
 Plug 'mbbill/undotree'
+
 Plug 'ramele/agrep'
+
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
+
 Plug 'vim-scripts/VisIncr'
+
 call plug#end()
