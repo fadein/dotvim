@@ -27,4 +27,7 @@ Plug 'tpope/vim-sexp-mappings-for-regular-people'
 
 Plug 'vim-scripts/VisIncr'
 
+Plug 'w0rp/ale'
+let g:ale_fix_on_save = 0
+
 call plug#end()
