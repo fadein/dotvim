@@ -5,6 +5,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 call plug#begin()
+
 Plug 'Shougo/unite.vim'
 
 Plug 'fadein/vim-FIGlet'
@@ -12,6 +13,8 @@ Plug 'fadein/vim-legacy'
 
 Plug 'guns/vim-sexp'
 let g:sexp_enable_insert_mode_mappings = 0
+
+Plug 'junegunn/fzf'
 
 Plug 'jamessan/vim-gnupg'
 
