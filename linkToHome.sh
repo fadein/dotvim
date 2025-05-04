@@ -20,6 +20,8 @@ linkToHome() {
 		if [ -h   $DEST_NAME ]; then
 			if [ "$(readlink $DEST_NAME)" != "$SOURCE_NAME" ]; then
 				echo "$DEST_NAME is already a symlink which doesn't point here"
+			else
+				echo "OK: $DEST_NAME -> $SOURCE_NAME"
 			fi
 
 		elif [ -d $DEST_NAME ]; then
