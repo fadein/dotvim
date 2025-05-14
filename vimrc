@@ -10,6 +10,7 @@ Plug 'Shougo/unite.vim'
 
 Plug 'fadein/vim-FIGlet'
 Plug 'fadein/vim-legacy'
+Plug 'fadein/vim-markdown'
 
 Plug 'guns/vim-sexp'
 let g:sexp_enable_insert_mode_mappings = 0
