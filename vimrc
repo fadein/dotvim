@@ -30,4 +30,6 @@ Plug 'tpope/vim-sexp-mappings-for-regular-people'
 
 Plug 'vim-scripts/VisIncr'
 
+Plug 'bhurlow/vim-parinfer'
+
 call plug#end()
