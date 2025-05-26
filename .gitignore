@@ -1,7 +1,8 @@
 .*.un\~
 .*~
 *~
-*.sw[pon]
+*.sw[a-z]
+*.sv[a-z]
 undo/*
 viminfo
 .netrwhist
